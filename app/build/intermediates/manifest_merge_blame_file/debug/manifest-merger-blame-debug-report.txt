@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.learngooglefit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:4:5-79
+11-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:5:5-80
+12-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+13-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:6:5-78
+13-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:6:22-76
+14
+15    <application
+15-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:7:5-21:19
+16        android:allowBackup="true"
+16-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:8:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:9:9-43
+20        android:label="@string/app_name"
+20-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:10:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:11:9-54
+22        android:supportsRtl="true"
+22-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:12:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:13:9-40
+25        <activity android:name="com.example.learngooglefit.MainActivity" >
+25-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:14:9-20:20
+25-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:14:19-47
+26            <intent-filter>
+26-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:15:13-19:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:16:17-69
+27-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:16:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:18:17-77
+29-->F:\AndroidStudioProjects\LearnGoogleFit\app\src\main\AndroidManifest.xml:18:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\c7c8438a8f935091b540d290be46ece9\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+33            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+33-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\c7c8438a8f935091b540d290be46ece9\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+34            android:excludeFromRecents="true"
+34-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\c7c8438a8f935091b540d290be46ece9\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+35            android:exported="false"
+35-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\c7c8438a8f935091b540d290be46ece9\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+36            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+36-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\c7c8438a8f935091b540d290be46ece9\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+37        <!--
+38            Service handling Google Sign-In user revocation. For apps that do not integrate with
+39            Google Sign-In, this service will never be started.
+40        -->
+41        <service
+41-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\c7c8438a8f935091b540d290be46ece9\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+42            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+42-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\c7c8438a8f935091b540d290be46ece9\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+43            android:exported="true"
+43-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\c7c8438a8f935091b540d290be46ece9\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+44            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+44-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\c7c8438a8f935091b540d290be46ece9\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+45
+46        <activity
+46-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\71e2c593e06ac7b66917d7ce206c24ac\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+47-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\71e2c593e06ac7b66917d7ce206c24ac\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\71e2c593e06ac7b66917d7ce206c24ac\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\71e2c593e06ac7b66917d7ce206c24ac\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+50
+51        <meta-data
+51-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\148b5af9b1354c4b0ea4734dbf96bd7d\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+52            android:name="com.google.android.gms.version"
+52-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\148b5af9b1354c4b0ea4734dbf96bd7d\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+53            android:value="@integer/google_play_services_version" />
+53-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Shubham\.gradle\caches\transforms-2\files-2.1\148b5af9b1354c4b0ea4734dbf96bd7d\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+54    </application>
+55
+56</manifest>
